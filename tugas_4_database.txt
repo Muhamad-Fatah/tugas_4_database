@@ -1,0 +1,14 @@
+1.Jalankan MySQL server di xampp
+2.Masuk kedalam folder bin mysql : cd c:/xampp/mysql/bin
+3.Jalankan client server : MYSQL -u root
+
+4.CREATE DATABASE permainan;
+5.USE permainan;
+6.CREATE TABLE sepakbola
+    -> (id_pemain int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    -> nama_pemain VARCHAR(100) NOT NULL,
+    -> usia_pemain INT(2) NOT NULL,
+    -> posisi_pemain VARCHAR(50) NOT NULL);
+7.RENAME TABLE sepakbola TO sepakbola_indonesia;
+8.DROP TABLE sepakbola_indonesia;
+9.DROP DATABASE permainan;
